@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.andy.happybirthday.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_title"
+        android:textStyle="normal|bold"
+        android:layout_margin="@dimen/title_margin"
+        android:textAlignment="center"
+        android:textSize="24dp"/>
+    <Button
+        android:id="@+id/prj1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_project1"
+        android:layout_margin="@dimen/title_margin"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/prj2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_project2"
+        android:layout_margin="@dimen/title_margin"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/prj3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_project3"
+        android:layout_margin="@dimen/title_margin"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/prj4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_project4"
+        android:layout_margin="@dimen/title_margin"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/prj5Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_project5"
+        android:layout_margin="@dimen/title_margin"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+</LinearLayout>
